@@ -1,0 +1,51 @@
+## Basic Configuration
+
+baseurl = "http://almightyzero.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "James Royal"
+title = "James Royal"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "James Royal"
+intro = "Software Engineer"
+description = "Now @Cloudflare. Likes to tinker with random stuff."
+authorimage = "profile.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "jroyal"
+linkedin = "james-royal-bb441b5b"
+email = "jhr.atx@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2017. James Royal. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "Drafthouse Seat Finder"
+    weight = 100
+    identifier = "drafthouse"
+    url = "drafthouse"

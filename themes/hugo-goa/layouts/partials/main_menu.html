@@ -1,0 +1,6 @@
+<section id="main-menu-pane" class="row text-center main-menu">
+  <!-- <h3 class="intro">Projects</h3> -->
+  {{ range sort .Site.Menus.main }}
+  <h4><a class="menu-item" href="{{ .URL }}">{{ .Name | lower }}</a></h4>
+  {{ end }}
+</section>
