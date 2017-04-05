@@ -49,3 +49,9 @@ hightlightjs = true
     weight = 100
     identifier = "drafthouse"
     url = "drafthouse"
+
+[[menu.main]]
+    name = "About me"
+    identifier = "about"
+    weight = 200
+    url = "aboutme"
