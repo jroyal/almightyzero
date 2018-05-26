@@ -48,10 +48,16 @@ hightlightjs = true
     name = "Drafthouse Seat Finder"
     weight = 100
     identifier = "drafthouse"
-    url = "drafthouse"
+    url = "https://drafthouse.almightyzero.com"
+
+[[menu.main]]
+    name = "Unix timestamp converter"
+    weight = 200
+    identifier = "epoch"
+    url = "https://epoch.almightyzero.com"
 
 [[menu.main]]
     name = "About me"
     identifier = "about"
-    weight = 200
+    weight = 300
     url = "aboutme"
